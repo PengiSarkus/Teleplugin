@@ -1,0 +1,10 @@
+name: teleport
+version: '1.0'
+main: me.can.teleport.Teleport
+api-version: '1.21'
+commands:
+  teleport:
+    description: isinlamaya yariyor.
+    aliases:
+      - tp
+      - isinlan
