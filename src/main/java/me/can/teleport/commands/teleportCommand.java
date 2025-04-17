@@ -23,7 +23,7 @@ public class teleportCommand implements CommandExecutor{
             return false;
         }
         if (args.length>2){
-            sender.sendMessage(ChatColor.RED+  "Kaç kişiyi birbirine teleportlucan orospu evladı");
+            sender.sendMessage(ChatColor.RED+  "Kaç kişiyi birbirine teleportlucan");
             return false;
         }
         if (args.length<2 && args[0].equalsIgnoreCase(gonderici.getName())){
