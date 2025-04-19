@@ -8,3 +8,7 @@ commands:
     aliases:
       - tp
       - isinlan
+  tptoggle:
+    description: Teleportunuzu kapatıp açmaya yarar.
+    aliases:
+      - tpt
