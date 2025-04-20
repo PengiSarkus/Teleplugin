@@ -42,6 +42,10 @@ public class teleportCommand implements CommandExecutor, TabCompleter {
                 targetPlayer.sendMessage(ChatColor.YELLOW + player.getName() + " adlı oyuncu size ışınlanmaya çalıştı fakat teleportunuz kapalı!");
                 return false;
             }
+            if (!tpToggleCommand.isTeleportEnabled(player.getUniqueId())) {
+                player.sendMessage(ChatColor.RED + "Teleportun Kapalı!");
+                return false;
+            }
 
             handleTeleport(player, targetPlayer);
             player.sendMessage(ChatColor.DARK_PURPLE + targetPlayer.getName() + " adlı oyuncuya başarıyla ışınlandın!");
