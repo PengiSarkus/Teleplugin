@@ -9,9 +9,9 @@ public final class Teleport extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().warning("Teleport plugini Yüklendi.");
-        getCommand("teleport").setExecutor(new teleportCommand());
+        getCommand("tp").setExecutor(new teleportCommand());
         getCommand("tptoggle").setExecutor(new tpToggleCommand());
-        getCommand("teleport").setTabCompleter(new teleportCommand());
+        getCommand("tp").setTabCompleter(new teleportCommand());
     }
 
     @Override

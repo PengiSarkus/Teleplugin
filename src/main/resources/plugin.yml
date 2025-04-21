@@ -3,10 +3,9 @@ version: '1.0'
 main: me.can.teleport.Teleport
 api-version: '1.21'
 commands:
-  teleport:
+  tp:
     description: isinlamaya yariyor.
     aliases:
-      - tp
       - isinlan
   tptoggle:
     description: Teleportunuzu kapatıp açmaya yarar.
